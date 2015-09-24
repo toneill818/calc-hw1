@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>
 #include <stdlib.h>
+#include <algorithm>
 #include "ast.cpp"
 
 	struct Parser{
@@ -102,7 +103,7 @@
 			}
 
 			if(std::isdigit(equation[lookAhead])){
-				return new Integer(std::atoi(&equation[lookAhead++]));
+				return new Integer(atoi(&equation[lookAhead++]));
 			}else{
 				std::cout << "Error: expected a digit but got " << equation[lookAhead] << std::endl;
 				exit(-4);

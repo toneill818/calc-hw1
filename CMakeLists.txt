@@ -3,6 +3,7 @@ project (calc)
 
 add_subdirectory (lib)
 
+
 add_executable (calc2postfix evaluate_postfix.cpp)
 target_link_libraries (calc2postfix LINK_PUBLIC lib)
 

@@ -1,9 +1,9 @@
 //
 // Created by Thomas O'Neill on 9/24/15.
 //
-#include "ast.cpp"
-#include "evaluate.cpp"
-#include "parser.cpp"
+#include "lib/ast.cpp"
+#include "lib/evaluate.cpp"
+#include "lib/parser.cpp"
 
 // Evaluates an equation from standard input
 int main(){
