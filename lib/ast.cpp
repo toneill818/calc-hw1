@@ -1,9 +1,6 @@
 // Thomas O'Neill
 #ifndef AST_CPP
 #define AST_CPP
-#include <iostream> 
-
-
 
 	class Expr;
 	class Integer;

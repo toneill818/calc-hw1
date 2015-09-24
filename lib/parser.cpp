@@ -5,6 +5,7 @@
 #include <cctype>
 #include <stdlib.h>
 #include <algorithm>
+#include <iostream>
 #include "ast.cpp"
 
 	struct Parser{
