@@ -14,7 +14,7 @@ int main(){
     e =parser.expr();
     Eval eval;
     e->accept(eval);
-    std::cout<< std::endl << eval.value << std::endl;
+    std::cout << eval.value << std::endl;
 
     return 0;
 }

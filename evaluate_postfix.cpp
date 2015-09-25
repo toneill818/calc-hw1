@@ -17,4 +17,5 @@ int main(){
     Postfix postfix;
 
     e->accept(postfix);
+    std::cout << std::endl;
 }

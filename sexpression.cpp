@@ -16,4 +16,5 @@ int main(){
     SExper sexper;
 
     e->accept(sexper);
+    std::cout << std::endl;
 }

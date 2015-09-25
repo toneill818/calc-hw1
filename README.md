@@ -11,3 +11,10 @@ All three programs run the same way. You run them with no commandline arguments 
 
 ####Test cases####
 To run the test case run the test.sh file and view its output. It should output nothing if all tests pass. If a test fails it should point you to the line at which it failed and you can view it in the tests.txt file to view which case failed. The test case calls the program with various input and stores it to a file then runs a diff with the expected output. 
+
+
+#####Grammer#####
+expr -> expr + factor | expr - factor | factor
+factor -> factor * term | factor / term | factor % term | term 
+term -> digit | (expr)
+digit -> 0|1|...|9
